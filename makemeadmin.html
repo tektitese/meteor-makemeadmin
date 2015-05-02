@@ -1,0 +1,11 @@
+<template name="makeMeAdmin">
+	{{#if currentUser}}
+		{{#unless makeMeAdminAnyAdmin}}
+			{{> makeMeAdminButton}}
+		{{/unless}}
+	{{/if}}
+</template>
+
+<template name="makeMeAdminButton">
+	<button class="makeMeAdmin btn">Make me admin</button>
+</template>
