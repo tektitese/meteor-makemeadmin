@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tektite:makemeadmin',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Template to make the first user admin',
   git: 'https://github.com/tektitese/meteor-makemeadmin.git',
   documentation: 'README.md'
